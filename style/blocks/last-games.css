@@ -1,0 +1,104 @@
+.last-games {
+    margin-bottom: 145px;
+}
+
+.last-games__list   {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-games__item   {
+    min-height: 394px;
+    flex: 1;
+    margin-right: 2%;
+}
+
+.last-games__item:last-child    {
+    margin-right: 0;
+}
+
+.single-last-game   {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.single-last-game__img    {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-last-game__content    {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    padding-right: 40px;
+    min-height: 168px;
+}
+
+.single-last-game__date   {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 12px;
+}
+
+.single-last-game__name    {
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.single-last-game__description {
+    font-size: 16px;
+    line-height: 21px;
+    margin:0;
+}
+
+.last-games__list   {
+    margin-bottom: 55px;
+}
+
+.paginator  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 82px;
+}
+
+.paginator__display {
+    line-height: 20px;
+    margin-right: 25px;
+}
+
+.paginator__list    {
+    display: flex;
+    align-items: center;
+}
+
+.paginator__item    {
+    text-align: center;
+}
+
+.paginator__link    {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.paginator__item--active .paginator__link   {
+    background: #8F00FF;
+}
+
+.paginator__link:hover  {
+    background: #8F00FF;
+    color: #fff;
+}
