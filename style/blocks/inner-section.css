@@ -27,6 +27,7 @@
     align-items: center;
     justify-content: center;
     filter: grayscale(1);
+    transition: filter .5s;
 }
 
 .partners__link:hover  {
@@ -139,6 +140,7 @@
 
 .button--gray   {
     background: #2B2B2B;
+    cursor: pointer;
 }
 
 .button--gray:hover {

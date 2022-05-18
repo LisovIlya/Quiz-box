@@ -82,3 +82,7 @@ body, html   {
     line-height: 42px;
     margin-bottom: 55px;
 }
+
+.button {
+    cursor: pointer;
+}
